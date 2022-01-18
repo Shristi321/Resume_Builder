@@ -7,7 +7,7 @@
 <div class="menubar">
     <ul id="menu">
         <li><a href="index.php">Home</a></li>
-        <li><a href="templates.php">Templates</a></li>
+        <li><a href="choose-template.php">Templates</a></li>
         <li><a href="signup.php">Signup</a></li>
         <li><a href="my_account.php">My Resumes</a></li>
 

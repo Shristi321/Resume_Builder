@@ -13,11 +13,11 @@
     <div class="content">
         <p id="main_content_title">Build the Best Resume</p>
         <p id="main_content_desc">
-            Our resume builder will help you make your prefect resume with options to change templates for free.<br> Est, tristique molestie commodo dignissim rutrum natoque lacinia iaculis amet elementum etiam phasellus lacus parturient donec sed sit justo parturient malesuada porta placerat habitant dolor senectus senectus est arcu tincidunt.
+            Our resume builder will help you make your prefect resume with options to change templates for free.<br><br> Est, tristique molestie commodo dignissim rutrum natoque lacinia iaculis amet elementum etiam phasellus lacus parturient donec sed sit justo parturient malesuada porta placerat habitant dolor senectus senectus est arcu tincidunt.
         </p>
        
         <div class="button_center">
-            <button class="center button" id="build_resume_button">Build my Resume</button>
+            <a href="choose-template.php"> <button class="button" id="build_resume_button">Build my Resume</button></a>
         </div>
         
     </div>
@@ -26,9 +26,9 @@
     </div>
 </div>
 
-<div class="footer">
-  <p>&copy;Copyright 2022 resumebuilder.shristichapagain.com</p>
-</div>
+<?php
+    include("footer.php");
+?>
 
 
 
