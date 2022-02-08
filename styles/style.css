@@ -48,7 +48,7 @@
     
 }
 
-#menu.li{
+#menu li{
     padding: 20px;
 }
 
@@ -59,6 +59,8 @@
     margin:5px;
     font-size:18px;
     font-family:COMIC SANS MS;
+
+    
 }
     
 #menu a:hover{
@@ -70,9 +72,12 @@
 
 .main_content{
   clear: both;
-  background-image: linear-gradient(to left top, rgb(140, 0, 255), rgb(0, 217, 255));
   padding: 30px;
   overflow: auto;
+}
+
+.main_gradient{
+    background-image: linear-gradient(to left top, rgb(140, 0, 255), rgb(0, 217, 255)); 
 }
 
 #main_content_title, #main_content_desc{
@@ -153,3 +158,40 @@
     /* height:200px; */
  }
 
+    
+#progress_nav_items{
+    /* padding:0;
+    margin:0; */
+    line-height:20px;
+    /* float:left; */
+    /* justify-content: flex-end; */
+    
+}
+
+#progress_nav_items li{
+    float: left;
+    display: block;
+    margin-left: 40px;
+    margin-top: -20px;
+}
+
+#progress_nav_items a{
+    text-decoration:none;
+    color:#58abf8;
+    font-size:18px;
+    font-family:COMIC SANS MS;
+    margin-left: 20px;
+    
+    /* float: left; */
+}
+    
+#progress_nav_items a:hover{
+    color:rgb(118, 17, 233);
+    font-weight:bolder;
+    text-decoration:underline;
+    font-size: larger;
+}
+
+#progress_nav_items a:active{
+    background-color: yellow;
+  }

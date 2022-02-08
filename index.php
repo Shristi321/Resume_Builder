@@ -9,7 +9,7 @@
     include("header.php");
     ?>
 
-<div class="main_content">
+<div class="main_content main_gradient">
     <div class="content">
         <p id="main_content_title">Build the Best Resume</p>
         <p id="main_content_desc">

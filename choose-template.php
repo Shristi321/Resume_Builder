@@ -9,10 +9,9 @@
     include("header.php");
     ?>
 
-<div class="">
+<div class="main_content">
     <div class="content">
-        
-        
+       <a href="editor/heading.php"><button>Example template</button></a>
     </div>
     <div class="content_2">
        
@@ -22,8 +21,6 @@
 <?php
     include("footer.php");
 ?>
-
-
 
 </body>
 </html>
