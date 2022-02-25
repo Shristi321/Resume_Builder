@@ -13,6 +13,8 @@
   
     <?php
         include("progress_nav.php");
+
+        div
     ?>
    
 </div>

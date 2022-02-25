@@ -19,6 +19,7 @@
         <div class="button_center">
             <a href="choose-template.php"> <button class="button" id="build_resume_button">Build my Resume</button></a>
         </div>
+
         
     </div>
     <div class="content_2">

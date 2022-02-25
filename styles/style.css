@@ -1,22 +1,71 @@
-#menu li{
-    list-style:none;
-    display:inline;
-     padding: 10px;
-    margin: 10px;
-    border: 0mm solid red;
-   
+.button {
+    background-color: #9742dd;
+    border: none;
+    color: white;
+    padding: 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    transition-duration: 0.5s;
+    cursor: pointer;
+    /* border: 1px solid red; */
 }
 
-#logo{
-    float:left;
-    width: 70%;
-    height: auto;
+.button_center{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+  
+#build_resume_button{
+    margin: 10px;
+    padding: 10px;
     border: 0px solid red;
 }
+
+#build_resume_button:hover {
+    background-color: #4CAF50;
+    color: white;
+    font-size: 25px;
+}
+
+.content{
+    float: left;
+    width: 60%;
+    /* border: 1px solid red; */
+}
+
+.content_2{
+    float: right;
+    width: 40%;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(65, 173, 245);
+    color: white;
+    text-align: center;
+    /* height:200px; */
+ }
 
 .header{
     float: left;
     width:20%;
+}
+
+input[type=text] {
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
 }
 
 #logo_desc{
@@ -26,6 +75,21 @@
     font-weight: bold;
     font-size: 20px;
     margin-top: -10px;
+}
+
+#logo{
+    float:left;
+    width: 70%;
+    height: auto;
+    border: 0px solid red;
+}
+
+#menu li{
+    list-style:none;
+    display:inline;
+     padding: 10px;
+    margin: 10px;
+    border: 0mm solid red;  
 }
 
 .menubar{
@@ -44,8 +108,7 @@
     margin:0; */
     line-height:40px;
     float:left;
-    /* justify-content: flex-end; */
-    
+    /* justify-content: flex-end; */ 
 }
 
 #menu li{
@@ -59,8 +122,6 @@
     margin:5px;
     font-size:18px;
     font-family:COMIC SANS MS;
-
-    
 }
     
 #menu a:hover{
@@ -93,23 +154,7 @@
     font-size: 25px;
 }
 
-#build_resume_button{
-    margin: 10px;
-    padding: 10px;
-    border: 0px solid red;
-}
 
-.content{
-    float: left;
-    width: 60%;
-    /* border: 1px solid red; */
-}
-
-.content_2{
-    float: right;
-    width: 40%;
-    
-}
 
 #resume_1{
     width: 70%;
@@ -119,46 +164,9 @@
     
 }
 
-.button {
-    background-color: #9742dd;
-    border: none;
-    color: white;
-    padding: 30px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 20px;
-    margin: 4px 2px;
-    transition-duration: 0.5s;
-    cursor: pointer;
-    /* border: 1px solid red; */
-  }
-
-  .button_center{
-      display: flex;
-      justify-content: center;
-      align-items: center;
-  }
-
-  #build_resume_button:hover {
-    background-color: #4CAF50;
-    color: white;
-    font-size: 25px;
-  }
 
 
-.footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: rgb(65, 173, 245);
-    color: white;
-    text-align: center;
-    /* height:200px; */
- }
-
-    
+  
 #progress_nav_items{
     /* padding:0;
     margin:0; */
@@ -181,8 +189,6 @@
     font-size:18px;
     font-family:COMIC SANS MS;
     margin-left: 20px;
-    
-    /* float: left; */
 }
     
 #progress_nav_items a:hover{
