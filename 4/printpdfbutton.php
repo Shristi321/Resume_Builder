@@ -1,0 +1,1 @@
+<button style="width: 150px;" class="btn btn-block btn-success hidden-print" onclick="window.print()">PRINT AS PDF</button>

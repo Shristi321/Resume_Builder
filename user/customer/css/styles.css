@@ -1,0 +1,165 @@
+body{
+	background-color: blue;
+	color: white;
+}
+
+h1{
+	color: rgb(0, 119, 255);
+	font-size: 35px;
+}
+
+
+div{
+	border: 0px solid rgb(218, 139, 36);
+
+}
+
+#main-content{
+	padding: 10px;
+	/*border: 1px solid rgb(218, 139, 36);*/
+	width: 75%;
+	float: right;
+}
+
+
+#nav{
+	margin: 0px;
+	margin-left: -50px;
+	float: left;
+	width: 25%;
+	padding: 0px;
+}
+
+#nav li{
+	display: block;
+	float: left;
+	width: 100%;
+	/* list-style: none; */
+	margin:0px;
+	padding: 5px;
+	background-color: rgb(173, 188, 190);
+	font-size: 20px;
+	text-align: center;
+}
+
+#nav li:hover{
+	background-color: rgb(155, 158, 163);
+}
+
+/* #nav li:active{
+	background-color: rgb(29, 91, 206);
+} */
+
+hr{
+	width: 35%;
+	float: left;
+}
+
+
+
+h2, h3, p, label{
+	color: rgb(168, 164, 164);
+}
+
+.contact_form_label{
+	display: inline-block; 
+	width: 200px; 
+	font-weight: bold;
+	font-size: 1.1em;
+} 
+
+.form_button{
+	background-color: rgb(173, 188, 190);
+	width: 75px;
+	height: 25px;
+	font-size: 1.2em;
+	/* color: rgb(0, 119, 255); */
+	/* float: right; */
+}
+
+#save{
+	background-color: green;
+	width: 100px;
+	height: 30px;
+}
+
+#cancel{
+	background-color: red;
+	width: 100px;
+	height: 30px;
+}
+
+input{
+	background-color: rgb(151, 149, 149);
+}
+
+
+.text-danger{
+color: red;
+}
+
+.text-success{
+	color: green;
+}
+
+.comment_box{
+	border: 1px solid red;
+	/* padding: 20px; */
+	border: 5px solid rgb(218, 139, 36);
+	border-style: groove;
+	margin-left: 20%;
+	margin-right: 20%;
+	margin-bottom: 1%;
+}
+
+.comment_box_header{
+	background-color: rgb(21, 87, 144);
+	font-size: 1.5em;
+}
+
+/* .comment_box_footer{
+	background-color: rgb(21, 87, 144);
+	height: 30px;
+} */
+
+.comment_box_body{
+	font-size: 1.3em;
+}
+
+
+
+
+/* 
+label{
+	color: rgb(240, 235, 166);
+}
+
+input,textarea, select{
+	
+}
+.column{
+	float: left;
+	width: 49.7%;
+}
+
+.row::after{
+	clear: both;
+}
+
+#submit{
+	background-color: green;
+	width: 100px;
+	height: 30px;
+	font-size: 20px;
+}
+
+#submit:hover{
+	background-color: rgb(163, 11, 11);
+}
+
+.contact_form_label{
+	display: inline-block; 
+	width: 200px; 
+	font-weight: bold;
+	font-size: 1.1em;
+} */

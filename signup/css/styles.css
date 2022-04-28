@@ -1,0 +1,66 @@
+body{
+	background-color: black;
+	color: aliceblue;
+}
+
+h1{
+	color: rgb(0, 119, 255);
+	font-size: 35px;
+}
+
+h2, h3, p{
+	color: rgb(168, 164, 164);
+}
+
+/* div{
+	border: 1px solid rgb(218, 139, 36);
+
+} */
+
+.signup_form{
+	margin-left: 10%;
+}
+
+/*#signin{
+	width: 10px;
+}*/
+
+#main-content{
+	padding: 10px;
+	margin-left: 25%;
+	margin-right: 25%;
+	margin-top: 5%;
+	border: 1px solid rgb(218, 139, 36);
+}
+
+
+.contact_form_label{
+	display: inline-block; 
+	width: 200px; 
+	font-size: 1.1em;
+} 
+
+input{
+	background-color: rgb(124, 120, 120);
+	width: 35%;
+	height: 20px;
+}
+
+#signup{
+	width: 70px;
+	background-color: green;
+}
+
+.column{
+	float: left;
+	width: 50%;
+}
+
+.row::after{
+	clear: both;
+}
+
+span{
+	color:red;
+}
+

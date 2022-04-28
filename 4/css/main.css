@@ -1,0 +1,136 @@
+body {
+	background-color: #000000;
+	line-height: 1.4em;
+	padding: 0;
+	margin: 0;
+}
+
+#page {
+	width: 21cm;
+	background-color: white;
+	margin: 1% auto 1% auto;
+	padding: 0.2cm 1.3cm 1cm 1.3cm;
+	box-shadow: 0px 0px 20px 0px #000;
+	line-height: 1.4em;
+	text-align: left;
+}
+
+/* #page h2 {
+	margin-bottom: 4px;
+} */
+#page h5 {
+	margin-top: 2px; margin-bottom: 3px;
+}
+
+ul {
+	margin-left: 20px;
+	padding-left: 20px;
+}
+li {
+	margin-top: 1%;
+}
+li li {
+	margin-top: 0.25%;
+}
+
+.star {
+	margin-top: 5px;
+}
+.light {
+	font-weight: 300;
+}
+
+.borderless { margin-bottom: 0; }
+.half {
+	display: inline-block;
+	width: 49.5%;
+}
+.left {
+	float: left;
+}
+.right {
+	float: right;
+}
+.tab {
+	margin-left: 10px;
+}
+
+#info {
+	margin-bottom: 0px;
+	margin-top: auto;
+}
+#contact {
+	text-align: center;
+}
+#contentMinor , #contentBranch {
+	display: none;
+}
+
+.section-title h4 { 
+	margin-top: 15px;
+	margin-bottom: 0px;
+}
+.section-title.uppercase h4 {
+	text-transform: uppercase;
+}
+
+.section-title.ruled.rule-above hr.hr-above {
+	border: 1px solid hsl(0,0%,40%);
+	margin-top: 0px; margin-bottom: 0px;
+}
+.section-title.ruled.rule-above hr.hr-below {
+	border: none;
+	margin: 0px;
+}
+.section-title.ruled.rule-below hr.hr-above {
+	border: none;
+	margin: 0px;
+}
+.section-title.ruled.rule-below hr.hr-below {
+	border: 1px solid hsl(0,0%,40%);
+	margin-top: 2px; margin-bottom: 5px;
+}
+.section-title.shaded hr { 
+	border: none;
+	margin: 0px;
+}
+
+.text {
+	color: #444;
+	font-size: 13.5px;
+}
+.time {
+	color: #333;
+	font-style: italic;
+	margin-right: 1px;
+}
+.mentor {
+	font-weight: 300;
+	font-style: italic;
+}
+
+.no-link .link {
+	display: none;
+}
+
+#sectionProjects .mentor , #sectionProjects .link {
+	display: inline-block;
+}
+#sectionSkills li , #sectionCourses li {
+	margin-top: 0.5%;
+}
+#sectionExperience .title , #sectionExperience .time {
+	display: inline-block;
+}
+#sectionPublications .title , #sectionPublications .time {
+	display: inline-block;
+}
+#sectionProjects .title , #sectionProjects .time {
+	display: inline-block;
+}
+#sectionInterest {
+	display: none;
+}
+#sectionFooterMessage {
+	display: none;
+}
